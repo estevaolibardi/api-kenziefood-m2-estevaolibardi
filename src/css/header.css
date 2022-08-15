@@ -1,0 +1,80 @@
+.header {
+    margin: 0 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header__nav {
+    margin: 15px 0 0 auto;
+}
+
+.header__link {
+    display: block;
+    padding: 10px;
+    background-color: var(--Grey-2);
+    border-radius: 33px;
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    border: 2px solid transparent;
+}
+    .header__link:hover {
+        border: 2px solid var(--Grey-3);
+    }
+
+.header__logo{
+    width: 123px;
+    height: 46px;
+    margin-top: 21px;
+}
+.header.img{
+    width: 100%;
+}
+.header__search-bar{
+    width: 100%;
+    max-width: 500px;
+    height: 54px;
+    margin-top: 15.48px;
+    display: flex;
+}
+.header__input{
+    width: 100%;
+    padding: 18.75px 60.35px 17.29px 17.65px;
+    background: var(--Grey-1);
+    color: var(--Grey-3);
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14.7053px;
+    line-height: 18px;
+    border: 1.65434px solid var(--Grey-1);
+    border-radius: 33.0868px;
+    box-sizing: border-box;
+    transition: outline 0.05s;
+}
+.header__button{
+    width: 44.11575698852539px;
+    height: 44.11575698852539px;
+    margin-top: 5px;
+    margin-left: -50px;
+    background: #FFE9EE;
+    border-radius: 100%;
+    background-image: url("../img/LupaVermelha.png");
+    background-size: 12px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    border: none;
+    box-sizing: border-box;
+    transition: background-color 0.3s;
+}
+.header__input:hover{
+    cursor: pointer;
+    outline: 2px solid black;
+}
+.header__button:hover {
+    cursor: pointer;
+    background-color: var(--Color-primary);
+    background-image: url("../img/LupaBranca.png");
+}

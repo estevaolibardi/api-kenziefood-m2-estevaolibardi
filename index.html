@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/header.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/main.css">
+    <title>Kenzie Food</title>
+</head>
+
+<body>
+    <header class="header">
+        <figure class="header__logo">
+            <img src="./src/img/imagem kenziefood.png" alt="" class="header__image">
+        </figure>
+
+        <div class="header__search-bar">
+            <input class="header__input" type="text" placeholder="Pesquisar por produto ">
+            <button class="header__button"></button>
+        </div>
+    </header>
+    <main class="main">
+        <nav class="nav-filter">
+            <button class="nav-filter__button nav-filter__button--grey-1" value="Todos">Todos</button>
+            <button class="nav-filter__button nav-filter__button--product-2" value="Panificadora">Panificadora</button>
+            <button class="nav-filter__button nav-filter__button--product-3" value="Frutas">Frutas</button>
+            <button class="nav-filter__button nav-filter__button--product-4" value="Bebidas">Bebidas</button>
+        </nav>
+
+        <section class="showcase">
+        </section>
+        
+        <section class="shopcart">
+
+            <!-- Cabeçalho do carrinho -->
+            <header class="shopcart__header">
+                <img src="./src/img/Logo_Cart_Comprar_White.png" alt="" class="shopcart__image_cart">
+                <h2 class="shopcart__title">Carrinho</h2>
+            </header>
+
+            <!-- Carrinho Vazio -->
+            <div class="shopcart__empty-box">
+                <img src="./src/img/cart_bag.png" alt="" class="shopcart__image">
+                <h3 class="shopcart__empty-title">Ops!</h3>
+                <p class="shopcart__empty-text">Por enquanto não temos produtos no carrinho</p>
+            </div>
+            <div class="shopcart-cards-box hidden">
+            </div>
+            <div class="shopcart__bottom-quantity hidden">
+                <h2 class="shopcart__quantity-text">Quantidade</h2>
+                <span class="shopcart__quantity-number">0</span>
+            </div>
+            <div class="shopcart__bottom-total hidden">
+                <h2 class="shopcart__total-text">Total</h2>
+                <span class="shopcart__total-number">R$0,00</span>
+            </div>
+
+        </section>
+        </section>
+    </main>
+
+    <script type="module" src="src/javascript/index.js"></script>
+
+</body>
+
+</html>
